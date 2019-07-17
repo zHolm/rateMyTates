@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container {
+	padding:1%;
+	background-image: url('farm.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+
+.potato-display, .this-potato{
+}
+.right{
+	width: 60%
+}
+
+.potato-display, .right{
+	display: inline-block;	
+	margin-left: 3%;
+	margin-top: 5%;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	border-radius: 25%;
+}
+h1, h2, li{
+	text-align: center;
+	background-color: rgb(255,250,205);
+	padding: 1%;
+}
+.this-potato{
+	text-align: center;
+	align: 70%;
+}
+.potato-display {
+	width: 20%;
+}
+p {
+
+	background-color: rgb(255,250,205);
+}
+.comments {
+	overflow-y: auto;
+	max-height: 400px;
+}
